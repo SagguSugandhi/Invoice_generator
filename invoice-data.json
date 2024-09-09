@@ -1,0 +1,50 @@
+{
+    "invoice_number": "IN-761",
+    "invoice_date": "28.10.2019",
+    "order_number": "403-3225714-7676307",
+    "order_date": "28.10.2019",
+    "sold_by": {
+        "name": "Varasiddhi Silk Exports",
+        "address": "75, 3rd Cross, Lalbagh Road, Bengaluru, Karnataka 560027",
+        "pan": "AACFV3325K",
+        "gst": "29AACFV3325K1ZY"
+    },
+    "billing": {
+        "name": "Madhu B",
+        "address": "Eurofins IT Solutions India Pvt Ltd., Maruti Platinum, Lakshminarayana Pura, AECS Layout, BENGALURU, KARNATAKA, 560037",
+        "state_code": "29"
+    },
+    "shipping": {
+        "name": "Madhu B",
+        "address": "Eurofins IT Solutions India Pvt Ltd., Maruti Platinum, Lakshminarayana Pura, AECS Layout, BENGALURU, KARNATAKA, 560037",
+        "state_code": "29"
+    },
+    "place_of_supply": "KARNATAKA",
+    "place_of_delivery": "KARNATAKA",
+    "items": [
+        {
+            "description": "Varasiddhi Silks Men's Formal Shirt (SH-05-42, Navy Blue, 42)",
+            "unit_price": 538.10,
+            "quantity": 1,
+            "discount": 0.00
+        },
+        {
+            "description": "Shipping Charges",
+            "unit_price": 30.96,
+            "quantity": 1,
+            "discount": 0.00
+        },
+        {
+            "description": "Varasiddhi Silks Men's Formal Shirt (SH-05-40, Navy Blue, 40)",
+            "unit_price": 538.10,
+            "quantity": 1,
+            "discount": 0.00
+        },
+        {
+            "description": "Shipping Charges",
+            "unit_price": 30.96,
+            "quantity": 1,
+            "discount": 0.00
+        }
+    ]
+}

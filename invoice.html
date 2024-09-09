@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+    <div class="invoice-box">
+        <table>
+            <tr class="top">
+                <td colspan="2">
+                    <table>
+                        <tr>
+                            <td class="title">
+                                <img src="logo.png" style="width:200px;">
+                            </td>
+                            <td>
+                                <div class="title-text">
+                                    <b>Tax Invoice/Bill of Supply/Cash Memo</b><br>
+                                    (Original for Recipient)
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            
+            <tr class="information">
+                <td colspan="2">
+                    <table>
+                        <tr>
+                            <td>
+                                <b>Sold By:</b><br>
+                                <span id="sold-by"></span><br>
+                                <span id="sold-address"></span><br>
+                                <b>PAN No: </b><span id="sold-pan"></span><br>
+                                <b>GST Registration No: </b><span id="sold-gst"></span>
+                            </td>
+                            <td>
+                                <b>Billing Address:</b><br>
+                                <span id="billing-name"></span><br>
+                                <span id="billing-address"></span><br>
+                                State Code: <span id="billing-state"></span><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Order Number:</b> <span id="order-number"></span><br>
+                                <b>Order Date:</b> <span id="order-date"></span>
+                            </td>
+                            <td>
+                                <b>Shipping Address:</b><br>
+                                <span id="shipping-name"></span><br>
+                                <span id="shipping-address"></span><br>
+                                State Code: <span id="shipping-state"></span><br>
+                                <b>Place of supply:</b> <span id="place-supply"></span><br>
+                                <b>Place of delivery:</b> <span id="place-delivery"></span><br>
+                                <b>Invoice Number:</b> <span id="invoice-number"></span><br>
+                                <b>Invoice Date:</b> <span id="invoice-date"></span><br>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        
+        <div class="item-box">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sl. No</th>
+                        <th>Description</th>
+                        <th>Unit Price</th>
+                        <th>Qty</th>
+                        <th>Net Amount</th>
+                        <th>Tax Rate</th>
+                        <th>Tax Type</th>
+                        <th>Tax Amount</th>
+                        <th>Total Amount</th>
+                    </tr>
+                </thead>
+                <tbody id="item-rows">
+                    <!-- Rows will be dynamically generated here -->
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="8" class="right-align">Total:</td>
+                        <td class="right-align" id="grand-total"></td>
+                    </tr>
+                </tfoot>
+            </table>
+            <p><b>Amount in Words:</b> <span id="amount-in-words"></span></p>
+            <p><b>Authorized Signatory:</b> Varasiddhi Silk Exports</p>
+        </div>
+    </div>
+
+    <script src="invoice.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>
